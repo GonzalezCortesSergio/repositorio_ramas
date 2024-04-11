@@ -26,8 +26,16 @@ public class Principal {
 
         switch (opc) {
             case 1:
-            
-                
+
+                System.out.println("Número 1");
+                aux = s.nextLine();
+                num1 = Integer.parseInt(aux);
+
+                System.out.println("Número 2");
+                aux = s.nextLine();
+                num2 = Integer.parseInt(aux);
+
+                System.out.println("La suma es= "+ (num1+num2));
                 break;
         
             
