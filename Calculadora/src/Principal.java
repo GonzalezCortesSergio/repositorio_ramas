@@ -25,7 +25,6 @@ public class Principal {
 
 
         switch (opc) {
-            
             case 1:
 
                 System.out.println("Número 1");
