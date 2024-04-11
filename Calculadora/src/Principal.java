@@ -38,11 +38,7 @@ public class Principal {
                 System.out.println("La suma es= "+ (num1+num2));
                 break;
         
-<<<<<<< HEAD
             case 2:
-=======
-            case 4:
->>>>>>> division
 
                 System.out.println("Número 1");
                 aux = s.nextLine();
@@ -52,7 +48,6 @@ public class Principal {
                 aux = s.nextLine();
                 num2 = Integer.parseInt(aux);
 
-<<<<<<< HEAD
                 System.out.println("El resultado es= " + (num1 - num2));
 
                 break;
@@ -70,16 +65,26 @@ public class Principal {
                 System.out.println("El resultado es= " + (num1 - num2));
 
                 break;
+
+            case 4:
+
+                System.out.println("Número 1");
+                aux = s.nextLine();
+                num1 = Integer.parseInt(aux);
+
+                System.out.println("Número 2");
+                aux = s.nextLine();
+                num2 = Integer.parseInt(aux);
+
+                System.out.println("El resultado es= " + (num1 - num2));
+
+                break;
+
             case 0:
 
                 System.out.println("Saliendo...");
             
             
-=======
-                System.out.println("El resultado de la división es= " + (num1 / num2));
-
-                break;
->>>>>>> division
             default:
 
                 System.out.println("Opción equivocada");
