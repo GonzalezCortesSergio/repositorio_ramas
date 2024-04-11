@@ -30,7 +30,13 @@ public class Principal {
                 
                 break;
         
+            
+            case 0:
+
+                System.out.println("Saliendo...");
             default:
+
+                System.out.println("Opción equivocada");
                 break;
         }
 
