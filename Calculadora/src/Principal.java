@@ -30,6 +30,19 @@ public class Principal {
                 
                 break;
         
+            case 4:
+
+                System.out.println("Número 1");
+                aux = s.nextLine();
+                num1 = Integer.parseInt(aux);
+
+                System.out.println("Número 2");
+                aux = s.nextLine();
+                num2 = Integer.parseInt(aux);
+
+                System.out.println("El resultado de la división es= " + (num1 / num2));
+
+                break;
             default:
                 break;
         }
