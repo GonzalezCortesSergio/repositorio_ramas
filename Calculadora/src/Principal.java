@@ -41,6 +41,8 @@ public class Principal {
                 num2 = Integer.parseInt(aux);
 
                 System.out.println("El resultado de la multiplicación es " + (num1 * num2));
+
+                break;
             default:
                 break;
         }
