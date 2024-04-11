@@ -40,7 +40,7 @@ public class Principal {
                 aux = s.nextLine();
                 num2 = Integer.parseInt(aux);
 
-                System.out.println("El resultado es= " + (num1 + num2));
+                System.out.println("El resultado es= " + (num1 - num2));
 
                 break;
             default:
